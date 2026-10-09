@@ -29,10 +29,10 @@ int main()
     std::cout << "Double x is: " << doubleNumber(x) << '\n';
 
     int localScopeExample {add(7, 4)};
-    std::cout << localScopeExample;
+    std::cout << localScopeExample << '\n';
 
 
-    std::cout << function(10, 5);
+    std::cout << function(10, 5) << '\n';
 
     return 0;
 }
